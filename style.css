@@ -4,6 +4,9 @@ body {
 	height: 100vh;
 	margin: 0;
 	}
+a {
+	text-decoration: none;
+}
 	
 .content {
 	display: flex;
@@ -21,7 +24,16 @@ body {
 	justify-content: center;
 	align-items: center;
     width: 10rem;	
+	gap: 1rem;
 	border: 1px solid blue;
+}
+
+.media-obj img {
+    width: inherit;	
+}
+.media-obj span {
+	font-size: 1.2rem;
+	margin: 0 1.5rem 1rem 1.5rem;
 }
 
 footer {
