@@ -1,35 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
 body {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
 	margin: 0;
-	}
+}
+
+h1, h2 {
+	font-family: 'Arima', cursive;
+	margin-left: 15px;
+}
+
 a {
 	text-decoration: none;
 }
 	
 .content {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	flex: 1 100%;
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
-	border: 1px dotted orange;
-	}
+}
 	
 .media-obj {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    width: 10rem;	
+    width: auto;	
 	gap: 1rem;
-	border: 1px solid blue;
 }
 
 .media-obj img {
-    width: inherit;	
+    width: inherit;
+	
 }
 .media-obj span {
 	font-size: 1.2rem;
@@ -42,6 +50,5 @@ footer {
 	align-items: center;
 	gap: .3rem;
 	height: 2rem;
-	border: 1px dotted red;
 	background-color: #eee;
 }

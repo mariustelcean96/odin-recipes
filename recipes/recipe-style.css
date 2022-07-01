@@ -1,0 +1,30 @@
+.recipe-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.recipe-intro {
+	display: flex;
+	align-self: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 24px;
+}
+
+.recipe-instructions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 24px;
+}
+
+.recipe-instructions span {
+	font-weight: 800;
+}
+
+.recipe-main, .recipe-main ol {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
